@@ -1,2 +1,2 @@
-# Test-hospital
-This is just a website to test our hospital
+# HOSPITAL CONSULTANCY SERVICES
+This is just a website to test mini project
