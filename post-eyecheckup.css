@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #ABEBC6
+  }
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  .footer-link{
+    color: #11999E;
+    font-family: sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* image */
+  .image {
+    width: 100%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+  }
+  .card2{
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #B3EFF5;
+    margin-top: 20px;
+  }
+  .card1{
+    background: #B3EFF5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 35px;
+    
+    
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
