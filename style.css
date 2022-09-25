@@ -179,6 +179,10 @@ header .fa-bars{
   color:#666;
 }
 
+.facility1{
+  min-height: inherit;
+}
+
 .facility{
   min-height: 100vh;
 }
