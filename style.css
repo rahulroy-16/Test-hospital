@@ -186,6 +186,9 @@ header .fa-bars{
 .facility{
   min-height: 100vh;
 }
+.facilitycolor{
+  color: grey;
+}
 
 .facility .box-container{
   display: flex;
